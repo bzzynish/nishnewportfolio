@@ -1,0 +1,11 @@
+
+body{margin:0;font-family:Arial;background:#f2f6fa;color:#222;}
+.nav{display:flex;justify-content:space-between;padding:15px 20px;background:#0ea5e9;color:white;}
+.nav a{color:white;margin-left:15px;text-decoration:none;}
+.logo{font-size:24px;font-weight:bold;}
+.hero{text-align:center;padding:80px 20px;}
+.btn{background:#0284c7;color:white;padding:10px 16px;border-radius:8px;text-decoration:none;display:inline-block;}
+.page{max-width:800px;margin:auto;padding:40px;}
+input,textarea{width:100%;padding:12px;margin-top:10px;border-radius:6px;border:1px solid #ccc;}
+.fade-in{opacity:0;transform:translateY(20px);animation:fade 1s forwards;}
+@keyframes fade{to{opacity:1;transform:none;}}

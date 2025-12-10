@@ -1,0 +1,1 @@
+document.querySelectorAll('.fade-in').forEach(e=>{e.style.opacity=1});
